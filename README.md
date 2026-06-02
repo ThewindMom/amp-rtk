@@ -1,11 +1,11 @@
 # Amp RTK Plugin
 
-> Token-efficient shell command output for [Amp](https://ampcode.com) via [RTK](https://github.com/yesiker/RTK).
+> Token-efficient shell command output for [Amp](https://ampcode.com) via [RTK](https://github.com/rtk-ai/rtk).
 
 ## Requirements
 
 - [Amp](https://ampcode.com) installed (desktop app or CLI)
-- [RTK](https://github.com/yesiker/RTK) binary on your `PATH` (see install below)
+- [RTK](https://github.com/rtk-ai/rtk) binary on your `PATH` (see install below)
 
 ## What It Does
 
@@ -22,7 +22,8 @@ If RTK is unavailable or the command has no RTK equivalent, the original command
 
 ```bash
 cargo install rtk
-# or download a release binary and place it in ~/.local/bin/
+# or download a release binary from https://github.com/rtk-ai/rtk/releases
+# and place it in ~/.local/bin/
 ```
 
 Verify with `rtk --version`. You should see something like `rtk 0.34.3`.
